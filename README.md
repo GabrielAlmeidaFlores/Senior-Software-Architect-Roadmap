@@ -1,4 +1,4 @@
-# Senior Software Architect
+# Senior Software Architect Roadmap
 
 > A practical, production-grade knowledge repository for mastering the full software engineering journey, one concept at a time, with architecture-level depth.
 
