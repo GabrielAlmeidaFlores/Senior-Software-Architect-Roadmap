@@ -18,6 +18,7 @@ This directory is reserved for AI-maintained project knowledge in Markdown forma
 - [PostgreSQL Deep Dive Entry](./architecture/postgresql-deep-dive-entry.md) points to the PostgreSQL process model, MVCC/vacuum, HOT, wraparound, and WAL teaching chapter.
 - [MySQL InnoDB Architecture Entry](./architecture/mysql-innodb-architecture-entry.md) points to the InnoDB buffer, locking, undo/purge, and replication teaching chapter.
 - [Index Internals Masterclass Entry](./architecture/index-internals-masterclass-entry.md) points to the B-tree versus LSM amplification and index failure-mode teaching chapter.
+- [Networking TLS Masterclass Entry](./architecture/networking-tls-masterclass-entry.md) points to the SSL/TLS, TLS 1.3, DTLS, PKI, forward-secrecy, mTLS, and production-hardening teaching series without duplicating the technical analysis.
 
 ## Maintenance Rules
 

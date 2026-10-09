@@ -27,7 +27,7 @@ It is not a simple notes collection. It is an evolving, decision-driven knowledg
 
 - How to reason about architecture decisions using trade-offs, constraints, and measurable outcomes.
 - How to deeply understand database and distributed systems concepts (current focus).
-- How to connect low-level platform topics (Linux, cloud infrastructure, networking) to architecture outcomes (next phases).
+- How to connect low-level platform and transport-security topics (Linux, cloud infrastructure, networking, TLS) to architecture outcomes.
 - How to build a long-term senior engineering mental model across domains, not only one stack.
 
 ---
@@ -45,13 +45,19 @@ It is not a simple notes collection. It is an evolving, decision-driven knowledg
 │       ├── 02-relational-engines/
 │       ├── 03-nosql-paradigms/
 │       └── 04-architectural-decision-framework/
-└── docs/
+├── networking/
+│   └── networking-masterclass/
+│       ├── README.md
+│       └── 01-transport-security/
+└── .docs/
     └── ai-knowledge-base/
 ```
 
 ---
 
-## Current Focus: Database Masterclass
+## Current Focus
+
+### Database Masterclass
 
 Main index:
 
@@ -64,7 +70,20 @@ Key domains:
 - **NoSQL Paradigms:** taxonomy, MongoDB, columnar, key-value, graph.
 - **Decision Framework:** selection playbooks, operational excellence, production readiness.
 
-This is the current primary learning track. New tracks will be added incrementally.
+This is the primary learning track. New tracks will be added incrementally.
+
+### Networking and Transport Security
+
+Main index:
+
+- [`networking/networking-masterclass/README.md`](./networking/networking-masterclass/README.md)
+
+This track covers the protocols that protect data in transit. Its first section, engine-agnostic and application-wide, includes:
+
+- **Evolution and Threat Model:** SSL to TLS, what transport security guarantees and refuses to guarantee.
+- **Handshakes and Records:** the TLS 1.2 baseline, the TLS 1.3 redesign, and DTLS over datagrams.
+- **Identity:** PKI, X.509 trust chains, forward secrecy, and mutual TLS for zero trust.
+- **Operations:** hardening, termination placement, observability, and failure diagnosis.
 
 Depth profile for this and future tracks:
 
@@ -91,7 +110,8 @@ The repository follows a one-step-at-a-time strategy: deep focus on one domain, 
 2. Move to `02-relational-engines` to build implementation depth.
 3. Study `03-nosql-paradigms` to understand non-relational trade-offs.
 4. Consolidate with `04-architectural-decision-framework`.
-5. Revisit earlier sections and build your own ADR-style decisions from real scenarios.
+5. Move to the transport-security series in `networking/networking-masterclass` to protect data in transit.
+6. Revisit earlier sections and build your own ADR-style decisions from real scenarios.
 
 ---
 
@@ -130,4 +150,5 @@ flowchart TD
 
 - Foundational architecture blueprint available.
 - Database masterclass documentation actively maintained.
+- Networking and transport-security masterclass established (SSL/TLS, TLS 1.3, DTLS, PKI, mTLS, production hardening).
 - Repository scope expanded to cover the complete software engineering path over time (including Linux and cloud).
