@@ -1,11 +1,19 @@
-# Senior Software Architect Roadmap
+<div align="center">
 
-> A practical, production-grade knowledge repository for mastering the full software engineering journey, one concept at a time, with architecture-level depth.
+<img src="./assets/icon.svg" alt="Senior Software Architect Roadmap" width="140" height="140" />
 
-![Architecture](https://img.shields.io/badge/Focus-Software%20Architecture-0A66C2)
-![Data](https://img.shields.io/badge/Focus-Database%20Engineering-1F883D)
-![Level](https://img.shields.io/badge/Level-Senior%20to%20Principal-6F42C1)
-![Format](https://img.shields.io/badge/Format-Masterclass%20Documentation-9A6700)
+<h1>Senior Software Architect Roadmap</h1>
+
+<p><strong>A practical, production-grade knowledge repository for mastering the full software engineering journey — one concept at a time, with architecture-level depth.</strong></p>
+
+<p>
+  <img src="https://img.shields.io/badge/Focus-Software%20Architecture-0A66C2?style=for-the-badge" alt="Focus: Software Architecture">
+  <img src="https://img.shields.io/badge/Focus-Database%20Engineering-1F883D?style=for-the-badge" alt="Focus: Database Engineering">
+  <img src="https://img.shields.io/badge/Level-Senior%20to%20Principal-6F42C1?style=for-the-badge" alt="Level: Senior to Principal">
+  <img src="https://img.shields.io/badge/Format-Masterclass%20Documentation-9A6700?style=for-the-badge" alt="Format: Masterclass Documentation">
+</p>
+
+</div>
 
 ---
 
