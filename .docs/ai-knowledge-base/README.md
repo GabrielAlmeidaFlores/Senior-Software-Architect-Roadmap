@@ -19,6 +19,11 @@ This directory is reserved for AI-maintained project knowledge in Markdown forma
 - [MySQL InnoDB Architecture Entry](./architecture/mysql-innodb-architecture-entry.md) points to the InnoDB buffer, locking, undo/purge, and replication teaching chapter.
 - [Index Internals Masterclass Entry](./architecture/index-internals-masterclass-entry.md) points to the B-tree versus LSM amplification and index failure-mode teaching chapter.
 - [Networking TLS Masterclass Entry](./architecture/networking-tls-masterclass-entry.md) points to the SSL/TLS, TLS 1.3, DTLS, PKI, forward-secrecy, mTLS, and production-hardening teaching series without duplicating the technical analysis.
+- [Network Fundamentals Masterclass Entry](./architecture/network-fundamentals-masterclass-entry.md) points to the layering/encapsulation, Ethernet/ARP/VLAN, IP/ICMP, TCP/UDP, DNS/DHCP/SLAAC, and NAT teaching series without duplicating the technical analysis.
+- [IP Addressing and Subnetting Masterclass Entry](./architecture/ip-addressing-and-subnetting-masterclass-entry.md) points to the IPv4 fundamentals, CIDR/masks, VLSM/summarization, and IPv6 addressing teaching series without duplicating the technical analysis.
+- [Routing and Switching Masterclass Entry](./architecture/routing-and-switching-masterclass-entry.md) points to the routing fundamentals, OSPF/IGP, BGP, and overlay/tunnel teaching series without duplicating the technical analysis.
+- [Cloud Virtual Networks Masterclass Entry](./architecture/cloud-virtual-networks-masterclass-entry.md) points to the provider-agnostic virtual network, subnet, gateway, security, topology, DNS/LB, and multi-account/multi-region teaching series without duplicating the technical analysis.
+- [Network Observability Masterclass Entry](./architecture/network-observability-masterclass-entry.md) points to the troubleshooting methodology and network performance/capacity teaching series without duplicating the technical analysis.
 
 ## Maintenance Rules
 

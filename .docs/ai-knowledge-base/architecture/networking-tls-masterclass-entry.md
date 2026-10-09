@@ -10,14 +10,14 @@ This entry points to the authoritative transport-security series in the networki
 
 ## Chapter Links
 
-- [SSL to TLS: Evolution, Threat Model, and Security Guarantees](../../../networking/networking-masterclass/01-transport-security/01-ssl-to-tls-evolution-and-threat-model.md)
-- [The TLS Record Layer and the TLS 1.2 Handshake](../../../networking/networking-masterclass/01-transport-security/02-record-layer-and-tls-1-2-handshake.md)
-- [TLS 1.3: The Cryptographic Redesign](../../../networking/networking-masterclass/01-transport-security/03-tls-1-3-cryptographic-redesign.md)
-- [DTLS: TLS Over Datagram Transport](../../../networking/networking-masterclass/01-transport-security/04-dtls-tls-over-datagram-transport.md)
-- [PKI, X.509, and Certificate Trust Chains](../../../networking/networking-masterclass/01-transport-security/05-pki-x509-and-certificate-trust-chains.md)
-- [Key Exchange, Ciphers, and Forward Secrecy](../../../networking/networking-masterclass/01-transport-security/06-key-exchange-ciphers-and-forward-secrecy.md)
-- [Mutual TLS (mTLS): Identity, Zero Trust, and Service-to-Service Authentication](../../../networking/networking-masterclass/01-transport-security/07-mutual-tls-identity-and-zero-trust.md)
-- [TLS and DTLS in Production: Hardening, Debugging, and Failure Modes](../../../networking/networking-masterclass/01-transport-security/08-tls-hardening-debugging-and-failure-modes.md)
+- [SSL to TLS: Evolution, Threat Model, and Security Guarantees](../../../networking/networking-masterclass/04-transport-security/01-ssl-to-tls-evolution-and-threat-model.md)
+- [The TLS Record Layer and the TLS 1.2 Handshake](../../../networking/networking-masterclass/04-transport-security/02-record-layer-and-tls-1-2-handshake.md)
+- [TLS 1.3: The Cryptographic Redesign](../../../networking/networking-masterclass/04-transport-security/03-tls-1-3-cryptographic-redesign.md)
+- [DTLS: TLS Over Datagram Transport](../../../networking/networking-masterclass/04-transport-security/04-dtls-tls-over-datagram-transport.md)
+- [PKI, X.509, and Certificate Trust Chains](../../../networking/networking-masterclass/04-transport-security/05-pki-x509-and-certificate-trust-chains.md)
+- [Key Exchange, Ciphers, and Forward Secrecy](../../../networking/networking-masterclass/04-transport-security/06-key-exchange-ciphers-and-forward-secrecy.md)
+- [Mutual TLS (mTLS): Identity, Zero Trust, and Service-to-Service Authentication](../../../networking/networking-masterclass/04-transport-security/07-mutual-tls-identity-and-zero-trust.md)
+- [TLS and DTLS in Production: Hardening, Debugging, and Failure Modes](../../../networking/networking-masterclass/04-transport-security/08-tls-hardening-debugging-and-failure-modes.md)
 
 ## Related Documents
 

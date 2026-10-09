@@ -56,7 +56,12 @@ It is not a simple notes collection. It is an evolving, decision-driven knowledg
 ├── networking/
 │   └── networking-masterclass/
 │       ├── README.md
-│       └── 01-transport-security/
+│       ├── 01-network-fundamentals/
+│       ├── 02-ip-addressing-and-subnetting/
+│       ├── 03-routing-and-switching/
+│       ├── 04-transport-security/
+│       ├── 05-cloud-virtual-networks/
+│       └── 06-network-observability-and-troubleshooting/
 └── .docs/
     └── ai-knowledge-base/
 ```
@@ -80,18 +85,20 @@ Key domains:
 
 This is the primary learning track. New tracks will be added incrementally.
 
-### Networking and Transport Security
+### Networking, Cloud Networking, and Transport Security
 
 Main index:
 
 - [`networking/networking-masterclass/README.md`](./networking/networking-masterclass/README.md)
 
-This track covers the protocols that protect data in transit. Its first section, engine-agnostic and application-wide, includes:
+This track spans the full path from packet fundamentals to transport security and provider-agnostic cloud networking:
 
-- **Evolution and Threat Model:** SSL to TLS, what transport security guarantees and refuses to guarantee.
-- **Handshakes and Records:** the TLS 1.2 baseline, the TLS 1.3 redesign, and DTLS over datagrams.
-- **Identity:** PKI, X.509 trust chains, forward secrecy, and mutual TLS for zero trust.
-- **Operations:** hardening, termination placement, observability, and failure diagnosis.
+- **Network Fundamentals:** layering and encapsulation, Ethernet/ARP/VLAN, IP/ICMP, TCP/UDP, DNS/DHCP/SLAAC, NAT.
+- **IP Addressing and Subnetting:** IPv4 math, CIDR and masks, VLSM and route summarization, IPv6 addressing.
+- **Routing and Switching:** control/data planes, longest-prefix match, OSPF, BGP, overlays and tunnels.
+- **Transport Security:** SSL/TLS evolution, the TLS 1.2 and 1.3 handshakes, DTLS, PKI/X.509, forward secrecy, mTLS, and production hardening.
+- **Cloud Virtual Networks:** provider-agnostic virtual networks, subnets, gateways, security groups/NACLs, connectivity topologies, DNS/load balancing, and multi-account/multi-region design.
+- **Network Observability and Troubleshooting:** layered diagnosis and tooling, plus performance and capacity.
 
 Depth profile for this and future tracks:
 
@@ -118,7 +125,7 @@ The repository follows a one-step-at-a-time strategy: deep focus on one domain, 
 2. Move to `02-relational-engines` to build implementation depth.
 3. Study `03-nosql-paradigms` to understand non-relational trade-offs.
 4. Consolidate with `04-architectural-decision-framework`.
-5. Move to the transport-security series in `networking/networking-masterclass` to protect data in transit.
+5. Move to `networking/networking-masterclass` and read the sections in order: fundamentals, addressing/subnetting, routing, transport security, cloud virtual networks, then observability.
 6. Revisit earlier sections and build your own ADR-style decisions from real scenarios.
 
 ---
@@ -158,5 +165,5 @@ flowchart TD
 
 - Foundational architecture blueprint available.
 - Database masterclass documentation actively maintained.
-- Networking and transport-security masterclass established (SSL/TLS, TLS 1.3, DTLS, PKI, mTLS, production hardening).
+- Networking masterclass established across six sections: fundamentals, IP addressing/subnetting, routing/switching, transport security (SSL/TLS, TLS 1.3, DTLS, PKI, mTLS), provider-agnostic cloud virtual networks, and observability/troubleshooting.
 - Repository scope expanded to cover the complete software engineering path over time (including Linux and cloud).
